@@ -1,0 +1,47 @@
+$font-stack: 'Rubik', sans-serif;
+$medium: 500;
+$light: 300;
+
+$x-large: 		2em;		//32
+$large: 		1.5em;		//24
+$medium: 		1.25em;		//20
+$medium-alt: 	1.125em;	//18*
+$small: 		1em;		//16
+$x-small:		0.75em;		//12
+$x-small-alt:	0.625em;	//10*
+
+$primary-colour: #222;
+$accent-colour: #70ADFF;
+$background-colour: #EDEDED;
+$hover-colour: #70ADFF;
+
+$padding-mobile: 16px;
+$padding-tablet: 32px;
+
+$max-width: 1000px;
+
+
+@mixin for-phone-portrait-only {
+  @media (max-width: 399px) { @content; }
+}
+@mixin for-phone-landscape-up {
+  @media (min-width: 400px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-portrait-alt-up {
+  @media (min-width: 760px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+
+
+

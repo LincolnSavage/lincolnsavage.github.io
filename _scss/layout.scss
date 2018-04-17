@@ -1,0 +1,83 @@
+.welcome {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.welcome__items {
+	text-align: center;
+	padding: 0 $padding-mobile 0 $padding-mobile;
+	margin: auto auto auto auto;
+
+	@include for-phone-landscape-up {
+		max-width: 500px;
+	}
+}
+
+.projects {
+
+}
+
+.project {
+	height: 300px;
+	width: 100%;
+	background-color: #222;
+	@include for-phone-landscape-up {
+		height: 400px;
+	}
+	@include for-desktop-up {
+		max-width: 50%;
+		float: left;
+	}
+}
+
+.project-page {
+	p {
+		font-size: 18px;
+		max-width: 40em;
+		padding: $padding-mobile;
+		@include for-phone-landscape-up {
+	    	padding: $padding-tablet;
+	  	}
+	}
+}
+
+.project-page p {
+	line-height: 1.8em;
+}
+
+/* /// Discrete Project Panes
+.project {
+	height: 300px;
+	width: calc(100%-40px);
+	background-color: #222;
+	margin: 40px;
+	@include for-phone-landscape-up {
+		height: 400px;
+	}
+	@include for-desktop-up {
+		max-width: 50%;
+		float: left;
+	}
+}
+*/
+
+footer {
+	background-color: #222;
+	text-align: center;
+	padding: 60px $padding-mobile;
+	@include for-phone-landscape-up {
+		padding: 60px $padding-tablet;
+	}
+	.logo path{
+    	fill: #fff;
+  	}
+}
+
+.about-page, .project-page {
+	footer {
+		margin-top: 100px;
+	}
+}
+

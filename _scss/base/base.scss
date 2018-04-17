@@ -1,0 +1,88 @@
+
+:root {
+	font-size: 16px;
+}
+
+html {
+	min-height: 100%;
+	min-width: 100%;
+	background-color: $background-colour;
+	scroll-behavior: smooth;
+}
+
+/*border box model*/
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: $font-stack;
+	font-size: $small;
+	color: $primary-colour;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+h1, h2, h3, h4, p, ul {
+	margin: 0;
+	font-weight: 100;
+}
+
+h1 {
+    font-size: 32px;
+  }
+
+h2 {
+    font-size: 14px;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+a, a:visited {
+	color: $primary-colour;
+	font-weight: 300;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	letter-spacing: .2px;
+}
+
+a:hover {
+	color: $accent-colour;
+}
+
+.button { 
+  display: inline-block;
+  border-color: $primary-colour;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 6px 16px 7px 16px;
+  font-weight: 300;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  color: $hover-colour;
+  border-color: $hover-colour;
+  cursor: pointer;
+}
+
+.button--big { 
+  padding: 10px 20px 12px 20px;
+}
+
+//Clearfix
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
