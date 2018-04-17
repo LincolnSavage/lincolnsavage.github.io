@@ -530,14 +530,14 @@ a:hover {
 }
 */
 footer {
-  background-color: #222;
+  background-color: #606060;
   text-align: center;
   padding: 60px 16px; }
   @media (min-width: 400px) {
     footer {
       padding: 60px 32px; } }
   footer .logo path {
-    fill: #fff; }
+    fill: #222; }
 
 .about-page footer, .project-page footer {
   margin-top: 100px; }
