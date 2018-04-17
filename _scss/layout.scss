@@ -64,14 +64,14 @@
 */
 
 footer {
-	background-color: #222;
+	background-color: #606060;
 	text-align: center;
 	padding: 60px $padding-mobile;
 	@include for-phone-landscape-up {
 		padding: 60px $padding-tablet;
 	}
 	.logo path{
-    	fill: #fff;
+    	fill: $primary-colour;
   	}
 }
 
