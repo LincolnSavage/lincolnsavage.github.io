@@ -304,7 +304,7 @@ nav {
     padding: 0;
   }
   @include for-tablet-portrait-up {
-    margin: 50px;
+    margin: 48px;
     h3 {
       font-size: 24px;
     }
@@ -409,4 +409,12 @@ figure {
   padding: 0 10px 10px 0;
 }
 
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 1s;
+}
 

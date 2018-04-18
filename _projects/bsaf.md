@@ -1,6 +1,6 @@
 ---
 layout: project
-number: 2
+number: 1
 title: Brisbane Street Art Festival
 description: City-wide Art Exhibition
 client: In-house Project

@@ -15,7 +15,7 @@ services:
 
 year: 2014, 2015, 2016, 2017, 2018 (Annual event)
 cover-image: projects/junglelove/cover.jpg
-position: bottom;
+position: bottom
 background-image: junglelove/background.jpg
 website: https://www.junglelovefestival.com.au
 ---

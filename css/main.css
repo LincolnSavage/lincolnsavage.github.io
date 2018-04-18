@@ -829,7 +829,7 @@ nav {
     padding: 0; }
   @media (min-width: 600px) {
     .project__title {
-      margin: 50px; }
+      margin: 48px; }
       .project__title h3 {
         font-size: 24px; }
       .project__title p {
@@ -915,3 +915,11 @@ figure {
 .clients__logo {
   max-width: 160px;
   padding: 0 10px 10px 0; }
+
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 1s; }

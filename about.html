@@ -21,7 +21,7 @@ title: Vast Yonder - About Us
 		<div class="clients">
       {% for image in site.static_files %}
         {% if image.path contains 'img/clients' %}
-          <img class="clients__logo" src="{{ image.path }}" alt="image" />
+          <img class="clients__logo lazyload" data-src="{{ image.path }}" alt="image" />
         {% endif %}
       {% endfor %}
 		</div>
