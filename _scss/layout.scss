@@ -1,3 +1,93 @@
+
+.welcome__background-image {
+	content: "";
+  	display: block;
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	background-image: url("/img/mobile-cover.jpg");
+	overflow: hidden;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: contrast(60%) grayscale(100%);
+	z-index: -98;
+	@include for-tablet-portrait-up {
+		background-image: url("/img/cover.jpg");
+		filter: contrast(20%) grayscale(100%) brightness(80%);
+	}
+	@media (orientation: portrait) {
+		background-image: url("/img/mobile-cover.jpg");
+		filter: contrast(60%) grayscale(100%);
+		background-position: top;
+	}
+	@media (orientation: landscape) {
+		background-image: url("/img/cover.jpg");
+		filter: contrast(20%) grayscale(100%) brightness(80%);
+	}
+}
+
+.welcome__background-image::after { //Tint
+	background-color: #000;
+	opacity: 0.4;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.project-page__background-image {
+	content: "";
+  	display: none;
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	background-image: url("/projects/bsaf/cover.jpg");
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+	z-index: -98;
+	@include for-desktop-up {
+		display: block;
+	}
+}
+
+.project-page__background-image::before {
+	background-color: #fff;
+	opacity: .94;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.project-page__background-image::after {
+	background: linear-gradient(rgba(246,246,246,0), rgba(246,246,246,1)); // Needs to match background colour
+	opacity: 1;
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
 .welcome {
 	min-height: 100vh;
 	display: flex;
@@ -16,10 +106,12 @@
 }
 
 .projects {
+	background-color: #fff;
 
 }
 
 .project {
+	// margin-bottom: 6px; Line Between Projects
 	height: 300px;
 	width: 100%;
 	background-color: #222;
@@ -64,7 +156,7 @@
 */
 
 footer {
-	background-color: #606060;
+	background-color: #222;
 	text-align: center;
 	padding: 60px $padding-mobile;
 	@include for-phone-landscape-up {

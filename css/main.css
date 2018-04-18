@@ -409,7 +409,7 @@ template {
 html {
   min-height: 100%;
   min-width: 100%;
-  background-color: #EDEDED;
+  background-color: #F6F6F6;
   scroll-behavior: smooth; }
 
 /*border box model*/
@@ -474,6 +474,88 @@ a:hover {
 .cf:after {
   clear: both; }
 
+.welcome__background-image {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("/img/mobile-cover.jpg");
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: contrast(60%) grayscale(100%);
+          filter: contrast(60%) grayscale(100%);
+  z-index: -98; }
+  @media (min-width: 600px) {
+    .welcome__background-image {
+      background-image: url("/img/cover.jpg");
+      -webkit-filter: contrast(20%) grayscale(100%) brightness(80%);
+              filter: contrast(20%) grayscale(100%) brightness(80%); } }
+  @media (orientation: portrait) {
+    .welcome__background-image {
+      background-image: url("/img/mobile-cover.jpg");
+      -webkit-filter: contrast(60%) grayscale(100%);
+              filter: contrast(60%) grayscale(100%);
+      background-position: top; } }
+  @media (orientation: landscape) {
+    .welcome__background-image {
+      background-image: url("/img/cover.jpg");
+      -webkit-filter: contrast(20%) grayscale(100%) brightness(80%);
+              filter: contrast(20%) grayscale(100%) brightness(80%); } }
+
+.welcome__background-image::after {
+  background-color: #000;
+  opacity: 0.4;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.project-page__background-image {
+  content: "";
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("/projects/bsaf/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  z-index: -98; }
+  @media (min-width: 1200px) {
+    .project-page__background-image {
+      display: block; } }
+
+.project-page__background-image::before {
+  background-color: #fff;
+  opacity: .94;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.project-page__background-image::after {
+  background: linear-gradient(rgba(246, 246, 246, 0), #f6f6f6);
+  opacity: 1;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
 .welcome {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -490,6 +572,9 @@ a:hover {
   @media (min-width: 400px) {
     .welcome__items {
       max-width: 500px; } }
+
+.projects {
+  background-color: #fff; }
 
 .project {
   height: 300px;
@@ -530,7 +615,7 @@ a:hover {
 }
 */
 footer {
-  background-color: #606060;
+  background-color: #222;
   text-align: center;
   padding: 60px 16px; }
   @media (min-width: 400px) {
@@ -593,7 +678,7 @@ nav {
   position: fixed;
   top: 0;
   text-align: right;
-  background-color: #EDEDED;
+  background-color: #FFFFFF;
   z-index: 10; }
   @media (min-width: 400px) {
     nav {
@@ -673,6 +758,8 @@ nav {
           animation-iteration-count: infinite;
   y: 9px;
   opacity: 1;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
   -webkit-transform-origin: 9px 17px;
           transform-origin: 9px 17px;
   will-change: transform; }

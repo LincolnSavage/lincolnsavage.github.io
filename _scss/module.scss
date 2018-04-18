@@ -46,7 +46,7 @@ nav {
   position: fixed;
   top: 0;
   text-align: right;
-  background-color: $background-colour;
+  background-color: #FFFFFF;
   z-index: 10;
   @include for-phone-landscape-up {
     padding: 14px $padding-tablet 14px $padding-tablet;
@@ -147,7 +147,7 @@ nav {
   animation-iteration-count: infinite;
   y: 9px;
   opacity: 1;
-  //transform: translateZ(0); //Performance Hack
+  transform: translateZ(0); //Performance Hack
   transform-origin: 9px 17px;
   will-change: transform;
 }
