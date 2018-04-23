@@ -15,7 +15,7 @@ background-image: projects/bsaf/background.jpg
 website: http://www.bsafest.com.au
 ---
 
-<figure><img class="full-width lazyload" data-src="/projects/bsaf/cover.jpg" alt="First Image" /></figure>
+<figure><img class="normal-width lazyload" data-src="/projects/bsaf/cover.jpg" alt="First Image" /></figure>
 
 The Brisbane Street Art Festival (BSAF) is a city-wide public art festival in its third iteration for 2018. Held across more than twenty-five locations throughout Brisbane and involving over 50 local, interstate and international artists through the course of two weeks and hosting a varied program of art forms and installations. BSAF serves as one of Brisbane’s most public facing arts events geared towards engagement, showcase, collaboration and public space activation. The Brisbane audience are immersed in the local creative industry as artists take to the street with large scale works, building a sense of community and inclusivity.
 

@@ -45,28 +45,29 @@
 
 .project-page__background-image {
 	content: "";
-  	display: none;
+  	display: block; // Display at small sizes
   	position: absolute;
   	top: 0;
   	bottom: 0;
   	left: 0;
   	right: 0;
-	background-image: url("/projects/bsaf/cover.jpg");
+	background-image: url("/projects/hive/cover.jpg");
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
+	filter: grayscale(100%) contrast(10%) brightness(90%);
 	z-index: -98;
 	@include for-desktop-up {
 		display: block;
 	}
 }
 
-.project-page__background-image::before {
-	background-color: #fff;
-	opacity: .94;
+.project-page__background-image::after {
+	background-color: $background-colour;
+	opacity: 1;
 	content: "";
 	display: block;
 	position: absolute;
@@ -74,10 +75,12 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
+	mix-blend-mode: lighten;
+	
 }
 
-.project-page__background-image::after {
-	background: linear-gradient(rgba(246,246,246,0), rgba(246,246,246,1)); // Needs to match background colour
+.project-page__background-image::before {
+	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)); // Needs to match background colour
 	opacity: 1;
 	content: "";
 	display: block;
@@ -86,7 +89,10 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
+	filter: grayscale(0%) contrast(100%) brightness(100%);
 }
+
+// background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)); // Needs to match background colour
 
 .welcome {
 	min-height: 100vh;
@@ -134,6 +140,17 @@
 	  	}
 	}
 }
+
+.project-page {
+	p, h1, h2, a {
+		color: $project-primary-colour;
+		border-color: $project-primary-colour;
+	}
+	h1 {
+
+	}
+}
+
 
 .project-page p {
 	line-height: 1.8em;

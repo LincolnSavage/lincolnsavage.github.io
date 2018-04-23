@@ -16,7 +16,7 @@ background-image: qubeeffect/background.jpg
 website: https://www.brisbane.qld.gov.au/community-safety/community-support/young-people/qube-effect-2018
 ---
 
-<figure><img class="full-width lazyload" data-src="/projects/qubeeffect/1.jpg" alt="First Image" /></figure>
+<figure><img class="normal-width lazyload" data-src="/projects/qubeeffect/1.jpg" alt="First Image" /></figure>
 
 The QUBE Effect is a music industry development project funded by the Brisbane City Council supporting emerging music in the Brisbane city region by giving 24 young Brisbane artists and bands opportunities to gain professional experience in the music industry, forge contacts with influential members of the industry and create content beneficial to their creative careers. To do so, we use our contacts and position in the music industry with innovative use of resources to create an experience that is both engaging and beneficial for the next generation of local emerging musicians.
 
