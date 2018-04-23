@@ -152,6 +152,17 @@
 }
 
 
+//Adds Carets to Title and Paragraphs.
+.project-page h1::after, .project-page p::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 12px;
+  background-color: $accent-colour;
+  vertical-align: baseline;
+  margin-left: 6px;
+}
+
 .project-page p {
 	line-height: 1.8em;
 }
