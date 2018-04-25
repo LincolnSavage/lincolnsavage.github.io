@@ -46,7 +46,8 @@ nav {
   position: fixed;
   top: 0;
   text-align: right;
-  background-color: #707070;
+  // background-color: #757575;
+  // box-shadow: 0 4px 12px rgba(0,0,0,0.064);
   z-index: 10;
   @include for-phone-landscape-up {
     padding: 14px $padding-tablet 14px $padding-tablet;
@@ -319,7 +320,7 @@ nav {
   position: relative;
   margin: 160px $padding-mobile $padding-mobile $padding-mobile;
   @include for-phone-landscape-up {
-    margin: 180px $padding-tablet $padding-tablet $padding-tablet;
+    margin: 220px $padding-tablet $padding-tablet $padding-tablet;
   }
   .button {
     position: absolute;
@@ -337,7 +338,7 @@ nav {
 .info__items {
   position: relative;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 60px;
   h2 {
     padding-bottom: 8px;
     line-height: 1.4em;

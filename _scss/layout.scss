@@ -31,7 +31,8 @@
 	}
 }
 
-.welcome__background-image::after { //Tint
+//Tint
+.welcome__background-image::after { 
 	background-color: #000;
 	opacity: 0.4;
 	content: "";
@@ -43,7 +44,16 @@
 	right: 0;
 }
 
-.project-page__background-image {
+
+.project-page__background {
+	position: absolute;
+	top: 0;
+	height: 600px;
+	width: 100%;
+}
+
+
+.project-page__background__image {
 	content: "";
   	display: block; // Display at small sizes
   	position: absolute;
@@ -52,20 +62,22 @@
   	left: 0;
   	right: 0;
 	background-image: url("/projects/hive/cover.jpg");
+	filter: grayscale(100%) contrast(10%) brightness(50%);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
-	filter: grayscale(100%) contrast(10%) brightness(90%);
 	z-index: -98;
 	@include for-desktop-up {
 		display: block;
 	}
 }
 
-.project-page__background-image::after {
+
+// Tint
+.project-page__background__image::after {
 	background-color: $background-colour;
 	opacity: 1;
 	content: "";
@@ -76,23 +88,21 @@
 	left: 0;
 	right: 0;
 	mix-blend-mode: lighten;
-	
 }
 
-.project-page__background-image::before {
-	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)); // Needs to match background colour
+// Gradient 
+.project-page__background__gradient {
+	background: linear-gradient(rgba(140,140,140,0) 0%, rgba(140,140,140,0.1) 20%, rgba(140,140,140,1)); // Needs to match background colour
 	opacity: 1;
 	content: "";
 	display: block;
 	position: absolute;
-	height: 100px;
+	height: 80%;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	filter: grayscale(0%) contrast(100%) brightness(100%);
+	z-index: -98;
 }
-
-// background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)); // Needs to match background colour
 
 .welcome {
 	min-height: 100vh;
@@ -134,9 +144,9 @@
 	p {
 		font-size: 18px;
 		max-width: 40em;
-		padding: $padding-mobile;
+		padding: 32px $padding-mobile;
 		@include for-phone-landscape-up {
-	    	padding: $padding-tablet;
+	    	padding: 50px $padding-tablet;
 	  	}
 	}
 }
@@ -148,6 +158,9 @@
 	}
 	h1 {
 
+	}
+	a:hover {
+		color: $accent-colour;
 	}
 }
 
@@ -166,22 +179,6 @@
 .project-page p {
 	line-height: 1.8em;
 }
-
-/* /// Discrete Project Panes
-.project {
-	height: 300px;
-	width: calc(100%-40px);
-	background-color: #222;
-	margin: 40px;
-	@include for-phone-landscape-up {
-		height: 400px;
-	}
-	@include for-desktop-up {
-		max-width: 50%;
-		float: left;
-	}
-}
-*/
 
 footer {
 	background-color: #222;
