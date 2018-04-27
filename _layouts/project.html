@@ -33,11 +33,12 @@
     <h2><span class="bold">Partners and Supporters</span><br>{{ page.partners }}</h2>	
     {% endif %}
     {% if page.website != null %}
-    <a class="button button--big" href="{{ page.website }}">launch website</a>	
+    <a class="button button--big"  href="{{ page.website }}" target="_blank">launch website</a>	
     {% endif %}
   </div>
 </section>
 {{ content }}
+<div class="project-navigation cf"><a class="project-navigation__previous" href="{{page.previous.url}}">Previous Project<br>{{page.previous.title}}</a><a class="project-navigation__next" href="{{page.next.url}}">Next Project<br>{{page.next.title}}</a></div>
 </div>
 {% include footer.html %}
 </body>

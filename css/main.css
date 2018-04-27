@@ -531,9 +531,9 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url("/projects/hive/cover.jpg");
-  -webkit-filter: grayscale(100%) contrast(10%) brightness(50%);
-          filter: grayscale(100%) contrast(10%) brightness(50%);
+  background-image: url("/projects/qubeeffect/cover.jpg");
+  -webkit-filter: grayscale(100%) contrast(10%) brightness(60%);
+          filter: grayscale(100%) contrast(10%) brightness(60%);
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -636,7 +636,7 @@ footer {
     fill: #222; }
 
 .about-page footer, .project-page footer {
-  margin-top: 100px; }
+  margin-top: 64px; }
 
 .video-background {
   background: #000;
@@ -1004,6 +1004,18 @@ figure {
 .clients__logo {
   max-width: 160px;
   padding: 0 10px 10px 0; }
+
+.project-navigation {
+  padding: 64px 32px 0 32px; }
+
+.project-navigation__previous {
+  float: left;
+  padding: 0 16px 16px 0; }
+
+.project-navigation__next {
+  text-align: right;
+  float: right;
+  padding: 0 0 16px 16px; }
 
 .lazyload,
 .lazyloading {

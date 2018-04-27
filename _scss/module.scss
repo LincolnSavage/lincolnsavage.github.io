@@ -373,6 +373,8 @@ figure {
   }
 }
 
+
+// Clean up
 nav .max-width {
   @include for-desktop-up {
     padding: 0 32px;
@@ -402,6 +404,25 @@ nav .max-width {
   max-width: 160px;
   padding: 0 10px 10px 0;
 }
+
+
+.project-navigation {
+  padding: 64px 32px 0 32px; 
+
+}
+
+.project-navigation__previous {
+  float: left;
+  padding: 0 16px 16px 0;
+
+}
+
+.project-navigation__next {
+  text-align: right;
+  float: right;
+  padding: 0 0 16px 16px; 
+}
+
 
 .lazyload,
 .lazyloading {
