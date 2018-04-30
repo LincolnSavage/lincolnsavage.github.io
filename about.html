@@ -22,7 +22,7 @@ title: Vast Yonder - About Us
   <div>
 		<p>Vast Yonder is an experiential agency based in Brisbane Australia. Our capabilities are built around arts, technology and experience by a cross-disciplinary team of artists, curators, developers and designers. We position our approach to step as far outside of the box as possible with the use of art and technology.</p>
     <p>Our past projects include music and arts festivals in urban and regional environments, creative technology activations across mobile, web, VR, robotics and film. We are capable of leading projects from ideation through to implementation.</p>
-		<div class="clients">
+		<div class="clients cf">
       {% for image in site.static_files %}
         {% if image.path contains 'img/clients' %}
           <img class="clients__logo lazyload" data-src="{{ image.path }}" alt="image" />
