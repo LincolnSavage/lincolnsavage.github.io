@@ -626,8 +626,8 @@ a:hover {
   line-height: 1.8em; }
 
 footer {
-  background-color: #222;
-  text-align: center;
+  background-color: #686868;
+  text-align: left;
   padding: 60px 16px; }
   @media (min-width: 400px) {
     footer {
@@ -1016,6 +1016,18 @@ figure {
   text-align: right;
   float: right;
   padding: 0 0 16px 16px; }
+
+.social {
+  height: 20px;
+  width: 20px;
+  float: right;
+  margin-left: 16px; }
+  .social .fill {
+    fill: #222;
+    transition: all 0.2s ease; }
+
+.social:hover .fill {
+  fill: #70ADFF; }
 
 .lazyload,
 .lazyloading {

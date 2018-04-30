@@ -181,8 +181,8 @@
 }
 
 footer {
-	background-color: #222;
-	text-align: center;
+	background-color: #686868;
+	text-align: left;
 	padding: 60px $padding-mobile;
 	@include for-phone-landscape-up {
 		padding: 60px $padding-tablet;
