@@ -169,6 +169,7 @@
 .project-page h1::after, .project-page p::after {
   content: "";
   display: inline-block;
+  position: relative;
   height: 2px;
   width: 12px;
   background-color: $accent-colour;
@@ -181,7 +182,7 @@
 }
 
 footer {
-	background-color: #686868;
+	background-color: #464646;
 	text-align: left;
 	padding: 60px $padding-mobile;
 	@include for-phone-landscape-up {
