@@ -1010,13 +1010,13 @@ figure {
   max-height: 160px;
   margin: 0 10px 10px 0;
   float: left;
-  -webkit-filter: contrast(60%) grayscale(100%) brightness(100%) invert(100%);
-          filter: contrast(60%) grayscale(100%) brightness(100%) invert(100%);
+  -webkit-filter: contrast(60%) grayscale(100%) invert(100%);
+          filter: contrast(60%) grayscale(100%) invert(100%);
   transition: all 0.6s ease; }
 
 .clients__logo:hover {
-  -webkit-filter: contrast(100%) grayscale(0%) brightness(100%) invert(0%);
-          filter: contrast(100%) grayscale(0%) brightness(100%) invert(0%);
+  -webkit-filter: contrast(100%) grayscale(0%) invert(0%);
+          filter: contrast(100%) grayscale(0%) invert(0%);
   transition: all 0.6s ease; }
 
 .project-navigation {
