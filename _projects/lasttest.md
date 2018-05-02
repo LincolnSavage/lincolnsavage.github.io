@@ -2,7 +2,7 @@
 layout: project
 number: 5
 position: center
-published: false
+published: true
 project-title: 'Test Post '
 description: Thing Thing
 client: Myself
