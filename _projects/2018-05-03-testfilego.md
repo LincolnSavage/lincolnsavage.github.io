@@ -10,6 +10,7 @@ partners: 'Wellington, Jazz, Heater, Television.'
 services: 'Friendly Handshake, Stern Nod, Business.'
 year: '2014, 2015, 2016'
 cover-image: projects/qubeeffect/cover.jpg
+project-title: Test Thing
 ---
 Cool content
 
