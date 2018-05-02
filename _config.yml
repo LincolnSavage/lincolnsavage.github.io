@@ -78,6 +78,8 @@ prose:
           help: "Choose what part of the image is kept in view when the page resizes, Centered by default"
           value: ""
           options:
+            - name: 'Center'
+              value: 'center'
             - name: 'Top'
               value: 'top'
             - name: 'Bottom'
