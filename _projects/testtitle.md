@@ -9,5 +9,6 @@ client: Me
 partners: 'Everyone else, No one.'
 services: 'Cats, Dogs.'
 year: '2020'
+cover-image: projects/qubeeffect/cover.jpg
 ---
 This is a test.
