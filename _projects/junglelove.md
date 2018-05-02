@@ -1,7 +1,7 @@
 ---
 layout: project
 number: 4
-title: Jungle Love Festival
+project-title: Jungle Love Festival
 description: Music and Arts Festival
 client: In-house Project
 partners: Tourism Queensland, Gympie Regional Council, Five Mile Radius, QUT, Digi Youth Arts, Mountain Goat, A Love Supreme, Lola, JMC, SAE.

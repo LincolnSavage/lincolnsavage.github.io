@@ -1,7 +1,7 @@
 ---
 layout: project
 number: 1
-title: Brisbane Street Art Festival
+project-title: Brisbane Street Art Festival
 description: City-wide Art Exhibition
 client: In-house Project
 partners: Brisbane City Council, ARIA Property Group, Telstra, Cornerstone Properties, Tryp Hotel, Ironlak, QUT, Up on Constance, Casphone, Energex, Queensland Museum, The Tivoli, Brisbane Powerhouse, Digi Youth Arts, Ric’s Bar, Stone and Wood, Mountain Goat.

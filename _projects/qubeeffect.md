@@ -1,7 +1,7 @@
 ---
 layout: project
 number: 2
-title: The QUBE Effect
+project-title: The QUBE Effect
 description: Performance Arcade
 client: Brisbane City Council
 partners: Brisbane City Council, Telstra, QUT, The Tivoli, Brisbane Powerhouse, Digi Youth Arts, Jaymis Loveday, Cinema Swarm, Music Industry Inside Out, The Foundry, Q Music, BIGSOUND.

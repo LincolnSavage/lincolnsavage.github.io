@@ -1,7 +1,7 @@
 ---
 layout: project
 number: 3
-title: Hive / Bienenstock
+project-title: Hive / Bienenstock
 description: Wide Format Interactive Display
 client: Queensland University of Technology / Robotronica
 partners: 
