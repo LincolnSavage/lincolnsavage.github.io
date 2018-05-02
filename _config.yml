@@ -4,3 +4,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 collections:
   projects:
     output: true
+
+prose:
+  rooturl: '_projects'
+  siteurl: "https://lincolnsavage.github.io/"
