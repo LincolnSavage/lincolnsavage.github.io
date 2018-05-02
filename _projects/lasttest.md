@@ -14,4 +14,5 @@ cover-image: projects/qubeeffect/cover.jpg
 Cool content
 
 ![test.png]({{site.baseurl}}/projects/test.png)
-![test.png]({{site.baseurl}}/projects/test.png){:class="full-width"}
+
+![test.png]({{site.baseurl}}/projects/test2.png){:class="full-width"}
