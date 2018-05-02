@@ -122,8 +122,7 @@
 }
 
 .projects {
-	background-color: #fff;
-
+	background-color: $primary-colour;
 }
 
 .project {
@@ -175,7 +174,7 @@
   background-color: $accent-colour;
   vertical-align: baseline;
   margin-left: 6px;
-  
+
 }
 
 .project-page p {
