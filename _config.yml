@@ -45,13 +45,11 @@ prose:
           element: textarea
           label: "Partners"
           placeholder: "Brisbane City Council, Telstra, QUT, The Tivoli, Brisbane Powerhouse, Digi Youth Arts, Jaymis Loveday, Cinema Swarm, Music Industry Inside Out, The Foundry, Q Music, BIGSOUND."
-          type: text
       - name: "services"
         field:
           element: textarea
           label: "Services"
           placeholder: "Project & Event Management, Music Industry Professional Development, Film Production."
-          type: text
       - name: "year"
         field:
           element: "text"
