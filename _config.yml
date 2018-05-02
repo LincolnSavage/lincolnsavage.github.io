@@ -8,3 +8,83 @@ collections:
 prose:
   rooturl: '_projects'
   siteurl: "https://lincolnsavage.github.io/"
+  metadata:
+    _projects:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "project"
+      - name: "number"
+        field:
+          element: "number"
+          value: "1"
+          type: "number"
+          label: "Position on front page"
+          help: "This number sets the position of the project on the front page. If more than one project shares a number, date is used to position the project." 
+      - name: "title"
+        field:
+          element: "text"
+          label: "Project Title"
+          placeholder: "The Qube Effect"
+          type: text
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          help: "Sits under the project titles on the front page"
+          placeholder: "Performance Arcade"
+          type: text
+      - name: "client"
+        field:
+          element: "text"
+          label: "Client"
+          placeholder: "Brisbane City Council"
+          type: text
+      - name: "partners"
+        field:
+          element: textarea
+          label: "Partners"
+          placeholder: "Brisbane City Council, Telstra, QUT, The Tivoli, Brisbane Powerhouse, Digi Youth Arts, Jaymis Loveday, Cinema Swarm, Music Industry Inside Out, The Foundry, Q Music, BIGSOUND."
+          type: text
+      - name: "services"
+        field:
+          element: textarea
+          label: "Services"
+          placeholder: "Project & Event Management, Music Industry Professional Development, Film Production."
+          type: text
+      - name: "year"
+        field:
+          element: "text"
+          label: "Year"
+          placeholder: "2016, 2017, 2018 (Annual event)"
+          type: text
+      - name: "website"
+        field:
+          element: "text"
+          label: "Website"
+          placeholder: "https://www.brisbane.qld.gov.au/community-safety/community-support/young-people/qube-effect-2018"
+          help: "Must include the http:// or https://. Leave blank if not applicable"
+          type: text
+      - name: "cover-image"
+        field:
+          element: "text"
+          label: "Cover Image"
+          placeholder: "projects/qubeeffect/cover.jpg"
+          type: text
+      - name: "position"
+        field:
+          element: "select"
+          label: "Cover Image Position"
+          help: "Choose what part of the image is kept in view when the page resizes, Centered by default"
+          value: ""
+          options:
+            - name: 'Top'
+              value: 'top'
+            - name: 'Bottom'
+              value: 'bottom'
+            - name: 'Left'
+              value: 'left'
+            - name: 'Right'
+              value: 'right'
+
+        

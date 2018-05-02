@@ -5,14 +5,9 @@ title: Hive / Bienenstock
 description: Wide Format Interactive Display
 client: Queensland University of Technology / Robotronica
 partners: 
-services:
-- Project & Event Management
-- Technical Implementation
-- Creative Technology
-
+services: Project & Event Management, Technical Implementation, Creative Technology.
 year: 2015 & 2017
 cover-image: projects/hive/cover.jpg
-background-image: hive/background.jpg
 website: http://hive.robotronica.qut.edu.au
 ---
 
