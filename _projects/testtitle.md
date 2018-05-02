@@ -2,7 +2,7 @@
 layout: project
 number: 5
 position: center
-published: false
+published: true
 title: Test Title
 description: Very Test Thing
 client: Me
