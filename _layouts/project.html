@@ -18,7 +18,7 @@
 </div>
 <div class="max-width">
   <section class="info">
-   <h1>{{ page.title }}<span class="caret"></span></h1>
+   <h1>{{ page.project-title }}<span class="caret"></span></h1>
    <div class="info__items">
     {% if page.client != null %}
     <h2><span class="bold">Client</span><br>{{ page.client }}</h2>	
@@ -38,7 +38,7 @@
   </div>
 </section>
 {{ content }}
-<div class="project-navigation cf"><a class="project-navigation__previous" href="{{page.previous.url}}">Previous Project<br>{{ page.previous.title }}</a><a class="project-navigation__next" href="{{page.next.url}}">Next Project<br>{{ page.next.title }}</a></div>
+<div class="project-navigation cf"><a class="project-navigation__previous" href="{{page.previous.url}}">Previous Project<br>{{ page.previous.project-title }}</a><a class="project-navigation__next" href="{{page.next.url}}">Next Project<br>{{ page.next.project-title }}</a></div>
 </div>
 {% include footer.html %}
 </body>

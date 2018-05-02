@@ -21,7 +21,7 @@ prose:
           type: "number"
           label: "Position on front page"
           help: "This number sets the position of the project on the front page. If more than one project shares a number, date is used to position the project." 
-      - name: "title"
+      - name: "project-title"
         field:
           element: "text"
           label: "Project Title"
