@@ -63,7 +63,17 @@ nav {
 }
 
 .nav--home .nav__logo{
-  display: none;         //Show on scroll, also fade in background colour on nav
+  opacity: 0;       //Show on scroll, also fade in background colour on nav
+}
+
+.visible {
+  background-color: #666;
+  transition: all 0.1s ease;
+}
+
+.visible .nav__logo{
+  opacity: 1;
+  transition: all 2s ease;
 }
 
 .logo {
