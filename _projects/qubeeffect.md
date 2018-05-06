@@ -7,7 +7,7 @@ client: Brisbane City Council
 partners: Brisbane City Council, Telstra, QUT, The Tivoli, Brisbane Powerhouse, Digi Youth Arts, Jaymis Loveday, Cinema Swarm, Music Industry Inside Out, The Foundry, Q Music, BIGSOUND.
 services: Project & Event Management, Music Industry Professional Development, Film Production.
 year: '2016, 2017, 2018 (Annual event)'
-cover-image: projects/qubeeffect/cover.jpg
+cover-image: projects/images/qubeeffect-cover.jpg
 website: https://www.brisbane.qld.gov.au/community-safety/community-support/young-people/qube-effect-2018
 ---
 

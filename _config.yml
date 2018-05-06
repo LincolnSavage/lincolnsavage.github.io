@@ -8,6 +8,7 @@ collections:
 prose:
   rooturl: '_projects'
   siteurl: "https://lincolnsavage.github.io/"
+  media: 'images'
   metadata:
     _projects:
       - name: "layout"

@@ -7,11 +7,11 @@ client: In-house Project
 partners: Brisbane City Council, ARIA Property Group, Telstra, Cornerstone Properties, Tryp Hotel, Ironlak, QUT, Up on Constance, Casphone, Energex, Queensland Museum, The Tivoli, Brisbane Powerhouse, Digi Youth Arts, Ric’s Bar, Stone and Wood, Mountain Goat.
 services: Project & Event Management, Public Art.
 year: 2016, 2017, 2018 (Annual event)
-cover-image: projects/bsaf/cover.jpg
+cover-image: projects/images/bsaf-cover.jpg
 website: http://www.bsafest.com.au
 ---
 
-<figure><img class="normal-width lazyload" data-src="/projects/bsaf/cover.jpg" alt="First Image" /></figure>
+Image
 
 The Brisbane Street Art Festival (BSAF) is a city-wide public art festival in its third iteration for 2018. Held across more than twenty-five locations throughout Brisbane and involving over 50 local, interstate and international artists through the course of two weeks and hosting a varied program of art forms and installations. BSAF serves as one of Brisbane’s most public facing arts events geared towards engagement, showcase, collaboration and public space activation. The Brisbane audience are immersed in the local creative industry as artists take to the street with large scale works, building a sense of community and inclusivity.
 
