@@ -8,7 +8,7 @@ collections:
 prose:
   siteurl: "https://lincolnsavage.github.io/"
   media: 'images'
-  ignore: ['_includes', '_config.yml']
+  ignore: ['_includes', '_scss', 'assets', 'css', 'img', '.gitignore', 'CNAME', 'gulpfile.js', 'package-lock.json', 'package.json', '_config.yml']
   metadata:
     _projects:
       - name: "layout"
