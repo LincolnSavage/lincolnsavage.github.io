@@ -6,9 +6,9 @@ collections:
     output: true
 
 prose:
-  rooturl: '_projects'
   siteurl: "https://lincolnsavage.github.io/"
   media: 'images'
+  ignore: ['_includes', '_config.yml']
   metadata:
     _projects:
       - name: "layout"
