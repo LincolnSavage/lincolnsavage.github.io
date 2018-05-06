@@ -19,7 +19,6 @@ published: true
 
 Content go here
 
-![Lightning.png]({{site.baseurl}}/projects/images/Lightning.png)
-![Yellow.png]({{site.baseurl}}/projects/images/Yellow.png)
+![Lightning.png]({{site.baseurl}}/images/Lightning.png)
 
 Test
