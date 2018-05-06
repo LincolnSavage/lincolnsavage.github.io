@@ -19,8 +19,6 @@ published: true
 
 Content go here
 
-![test.png]({{site.baseurl}}/_projects/images/test.png)
+![test.png]({{site.baseurl}}/images/test.png)
 
 Test
-
-
