@@ -7,7 +7,7 @@ client: Queensland University of Technology / Robotronica
 partners: 
 services: Project & Event Management, Technical Implementation, Creative Technology.
 year: 2015 & 2017
-cover-image: projects/images/hive-cover.jpg
+cover-image: images/hive-cover.jpg
 website: http://hive.robotronica.qut.edu.au
 ---
 

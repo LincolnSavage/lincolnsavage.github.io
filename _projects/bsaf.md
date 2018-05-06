@@ -7,7 +7,7 @@ client: In-house Project
 partners: Brisbane City Council, ARIA Property Group, Telstra, Cornerstone Properties, Tryp Hotel, Ironlak, QUT, Up on Constance, Casphone, Energex, Queensland Museum, The Tivoli, Brisbane Powerhouse, Digi Youth Arts, Ric’s Bar, Stone and Wood, Mountain Goat.
 services: Project & Event Management, Public Art.
 year: 2016, 2017, 2018 (Annual event)
-cover-image: projects/images/bsaf-cover.jpg
+cover-image: images/bsaf-cover.jpg
 website: http://www.bsafest.com.au
 ---
 

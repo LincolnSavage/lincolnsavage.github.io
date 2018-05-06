@@ -11,7 +11,7 @@ services: >-
   Project & Event Management, Music and Arts programming, Infrastructure
   Management, Liquor Licensing, Volunteer Management, Community Engagement.
 year: '2014, 2015, 2016, 2017, 2018 (Annual event)'
-cover-image: projects/images/junglelove-cover.jpg
+cover-image: images/junglelove-cover.jpg
 position: bottom
 website: 'https://www.junglelovefestival.com.au'
 published: true
