@@ -19,6 +19,5 @@ published: true
 
 Content go here
 
-![Lightning.png]({{site.baseurl}}/images/Lightning.png)
 
 Test
