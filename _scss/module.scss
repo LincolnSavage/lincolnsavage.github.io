@@ -102,6 +102,27 @@ nav {
   margin-right: 16px;
 }
 
+.current {
+  display: inline-block;
+  position: relative;
+}
+
+.current:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  // left: 50%;
+  height: 2px;
+  width: 100%;
+  background-color: $accent-colour;
+  z-index: -1;
+}
+
+.current:hover {
+  cursor: default;
+}
+
 .welcome {
   position: relative;
   h1 {
@@ -356,34 +377,13 @@ nav {
   }
 }
 
-figure {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  img {
-    display: block;
-  }
-}
-
-.full-width {
-  width: 100%;  
-}
-
-.normal-width {
-  width: 100%;
-  max-width: $max-width;
-  @include for-phone-landscape-up {
-    padding: 0 $padding-tablet;
-  }
-}
-
+// Generic Container
 .max-width {
   margin: 0 auto 0 auto;
   @include for-desktop-up {
     max-width: $max-width;
   }
 }
-
 
 // Clean up
 nav .max-width {
@@ -398,7 +398,7 @@ nav .max-width {
     position:relative;
     height:0;
     margin-top: $padding-mobile;
-    @include for-phone-landscape-up {
+    @include for-tablet-portrait-up {
       margin: $padding-tablet $padding-tablet 0 $padding-tablet;
     }
 }
@@ -430,8 +430,10 @@ nav .max-width {
 }
 
 .project-navigation {
-  padding: 64px 32px 0 32px; 
-
+  padding: 64px $padding-mobile 0 $padding-mobile;
+  @include for-phone-landscape-up {
+    padding: 64px 32px 0 32px;
+  }
 }
 
 .project-navigation__previous {
@@ -462,7 +464,6 @@ nav .max-width {
     fill: $accent-colour;
   }
 }
-
 
 .lazyload,
 .lazyloading {
