@@ -631,6 +631,9 @@ a:hover {
 .project-page p {
   line-height: 1.8em; }
 
+.project-page a.current {
+  color: #2D2D2D; }
+
 .project-page h1::after, .project-page p::after {
   content: "";
   display: inline-block;

@@ -183,6 +183,9 @@
 	p {
 		line-height: 1.8em;
 	}
+	a.current {
+		color: $project-primary-colour;
+	}
 }
 
 // Adds Carets to Title and Paragraphs.
