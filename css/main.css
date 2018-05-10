@@ -771,14 +771,31 @@ nav {
 .current:after {
   content: "";
   display: block;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: rotateZ(-20deg);
-          transform: rotateZ(-20deg);
+  position: relative;
+  bottom: -4px;
   height: 2px;
-  width: 100%;
+  width: 8px;
+  margin: 0 auto 0 auto;
   background-color: #70ADFF;
-  z-index: -1; }
+  z-index: -1;
+  -webkit-animation-name: cross;
+          animation-name: cross;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1; }
+
+@-webkit-keyframes cross {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes cross {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .current:hover {
   cursor: default; }

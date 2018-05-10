@@ -110,13 +110,25 @@ nav {
 .current:after {
   content: "";
   display: block;
-  position: absolute;
-  top: 50%;
-  transform: rotateZ(-20deg);
+  position: relative;
+  bottom: -4px;
   height: 2px;
-  width: 100%;
+  width: 8px;
+  margin: 0 auto 0 auto;
   background-color: $accent-colour;
   z-index: -1;
+  animation-name: cross;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes cross {
+  0% { 
+    opacity: 0;
+  }
+  100% { 
+    opacity: 1;
+  }
 }
 
 .current:hover {
