@@ -285,7 +285,7 @@ nav {
   padding-left: 10px;
   margin: 0 0 40px $padding-mobile;
   bottom: 0;
-  border-left: 1px solid $accent-colour;
+  border-left: 2px solid $accent-colour;
   transition: all 0.2s ease;
   h3, p {
     color: white;
@@ -382,12 +382,17 @@ nav .max-width {
 }
 
 .clients__logo {
-  max-width: 160px;
-  max-height: 160px;
+  max-width: 140px;
+  max-height: 140px;
   margin: 0 10px 10px 0;
   float: left;
   filter: contrast(60%) grayscale(100%) invert(100%);
   transition: all 0.6s ease;
+  @include for-phone-portrait-only {
+    max-width: 90px;
+    max-height: 90px;
+    margin: 0 5px 5px 0;
+  }
 }
 
 .clients__logo:hover {
@@ -396,11 +401,67 @@ nav .max-width {
 }
 
 .contact {
-  margin: 80px $padding-mobile $padding-mobile $padding-mobile;
-  @include for-phone-landscape-up {
-    margin: 100px $padding-tablet $padding-tablet $padding-tablet;
+  .contact__form {
+    padding: 0 $padding-mobile 0 $padding-mobile;
+    @include for-phone-landscape-up {
+      padding: 0 32px 0 32px;
+    }
+    font-weight: 100;
+  }
+  label {
+    float: left;
+    padding: 8px 8px 8px 0;
+    font-size: 14px;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+  }
+  .field {
+    background-color: #999;
+    box-shadow: none;
+    border: none;
+    padding: 8px;
+    font-weight: inherit;
+    float: left;
+    clear: left;
+  }
+  .field:focus {
+    outline: none !important;
+    background-color: #BBB;
+  }
+  fieldset {
+    float: left;
+    padding: 0;
+    border: none;
+    margin-right: 16px;
+  }
+  .email-field {
+    max-width: 300px;
+    width: 100%;
+    .field {
+      width: 100%;
+    }
+  }
+  .message-field {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 8px;
+    clear: left;
+  }
+  .button {
+    float: left;
+    clear: left;
+    margin-top: 16px;
+  }
+  .button:focus {
+    outline: none !important;
+    border-color: #BBB;
+    color: #222;
   }
 }
+
 
 .project-navigation {
   padding: 64px $padding-mobile 0 $padding-mobile;
@@ -441,6 +502,8 @@ nav .max-width {
 .lazyload,
 .lazyloading {
   opacity: 0;
+  min-height: 200px;
+  min-width: 200px;
 }
 .lazyloaded {
   opacity: 1;

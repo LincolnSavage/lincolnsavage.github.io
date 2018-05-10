@@ -37,8 +37,44 @@ title: Vast Yonder - About Us
       {% endfor %}
 		</div>
 	</div>
-  <div class="contact" id="contact">
-      <h1>Contact</h1>
+  <div class="contact cf" id="contact">
+    <p>A blurb inviting user to contact Vast Yonder using the form below.</p>
+    <form class="contact__form cf" id="my_form">
+      <fieldset>
+        <label>Name</label>
+        <input class="field" type="text" name="name" />
+      </fieldset>
+      <fieldset class="email-field">
+        <label>Email</label>
+        <input class="field" type="email" name="email" />
+      </fieldset>
+      <fieldset class="message-field">
+        <label>Message</label>
+        <textarea class="field" name="message"></textarea>
+      </fieldset>
+        <input type="hidden" name="*reply" value="email" />
+        <input type="hidden" name="*honeypot" />
+        <input type="hidden" name="*subject" value="Vast Yonder Website Enquiry" />
+        <input class="button button--big" type="submit" name="submit" value="send" />
+        <div id="server-results"><!-- For server results --></div>
+    </form>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        console.log("Script Runs");
+        $("#my_form").submit(function(event){
+            console.log("Bang");
+            event.preventDefault(); //prevent default action 
+            var form_data = $(this).serialize(); //Encode form elements for submission
+            $.ajax({
+              method: 'POST',
+              url: 'https://www.enformed.io/brq2ec8/',
+              dataType: 'json',
+              data: form_data,
+              success: (data) => console.log(data),
+              error: (err) => console.log(err)
+            });
+        });
+    </script>
   </div>
 </div>
 {% include footer.html %}
