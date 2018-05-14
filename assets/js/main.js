@@ -13,5 +13,3 @@ jQuery('.image-container').children('img').each(function() {
 	$(this).attr("data-src",$(this).attr("src"));
 	$(this).removeAttr("src");
 });
-
-console.log("Woe");

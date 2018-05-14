@@ -68,7 +68,7 @@ prose:
         field:
           element: "text"
           label: "Cover Image"
-          placeholder: "projects/qubeeffect/cover.jpg"
+          placeholder: "images/qubeeffect-cover.jpg"
           type: text
       - name: "position"
         field:

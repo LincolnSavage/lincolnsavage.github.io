@@ -3,30 +3,18 @@
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
+  object-fit: cover;
 }
 .video-overlay,
 .video-foreground,
-.video-background iframe {
+.video-background {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
-  filter: contrast(60%) grayscale(100%);
-}
-
-//Video Overlay
-.video-background::after {
-  background-color: #444;
-  opacity: 0.8;
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  filter: contrast(20%) grayscale(100%) brightness(80%);
 }
 
 .video-overlay {
@@ -449,9 +437,17 @@ nav .max-width {
     border: none;
     margin-right: 16px;
   }
+  .name-field {
+    width: 300px;
+    .field {
+      width: 100%;
+    } 
+  }
   .email-field {
-    max-width: 300px;
+    max-width: 400px;
     width: 100%;
+    margin-top: 8px;
+    clear: left;
     .field {
       width: 100%;
     }
