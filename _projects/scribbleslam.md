@@ -12,7 +12,7 @@ year: Monthly Event
 website: www.scribbleslam.com
 cover-image: images/scribbleslam-baoho.jpg
 ---
-![Artist Bao Ho Painting at Scribble Slam]({{site.baseurl}}/images/scribbleslam-baoho.JPG){:class="lazyload"}
+![Artist Bao Ho Painting at Scribble Slam]({{site.baseurl}}/images/scribbleslam-baoho.jpg){:class="lazyload"}
 
 
 Scribble Slam is a live art battle that runs at Ric’s Backyard in Fortitude Valley once a month. The first round of Scribble Slam returned at Ric’s hosting the incredible talents of EJ Zyla and Bao Ho from Hong Kong; with MC support, Shani Finch, giving attendees an unmissable blow by blow of street artists in action.
