@@ -2,7 +2,7 @@
 layout: project
 number: 5
 position: center
-published: false
+published: true
 project-title: Scribble Slam
 description: Live art battle
 client: In-house
