@@ -25,3 +25,4 @@ The event showcases two artists battling against each other, working with a 90 m
 <div class="video-responsive">
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/jLKxgUoCJrU" frameborder="0" allowfullscreen=""></iframe>
 </div>
+
