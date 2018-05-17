@@ -1,9 +1,13 @@
 .video-background {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
-  object-fit: cover;
+  display: none;
+  @include for-tablet-portrait-up {
+    display: block;
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+    object-fit: cover;
+  }
 }
 .video-overlay,
 .video-foreground,
