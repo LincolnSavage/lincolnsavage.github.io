@@ -4,12 +4,12 @@ number: 5
 position: center
 published: true
 project-title: Scribble Slam
-description: Live art battle
+description: Live Art Battle
 client: In-house
 partners: 'Ric''s, ironlak, Captain Morgan, Coopers'
 services: 'Curatorial services, event management'
 year: Monthly Event
-website: www.scribbleslam.com
+website: 'http://www.scribbleslam.com'
 cover-image: images/scribbleslam-baoho.jpg
 ---
 ![Artist Bao Ho Painting at Scribble Slam]({{site.baseurl}}/images/scribbleslam-baoho.jpg){:class="lazyload"}
@@ -25,4 +25,3 @@ The event showcases two artists battling against each other, working with a 90 m
 <div class="video-responsive">
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/jLKxgUoCJrU" frameborder="0" allowfullscreen=""></iframe>
 </div>
-
