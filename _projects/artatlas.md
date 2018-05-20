@@ -24,5 +24,4 @@ The system allows for artists to build a catalogue of their work which provides 
 
 Art Atlas is live on the Apple App Store and Google Play, growing through increasing numbers of artists and art devotees uploading fresh content and our developers are continuing to improve the system.
 
-![artatlasapp.png]({{site.baseurl}}/images/artatlasapp.png)
-
+![artatlasapp.png]({{site.baseurl}}/images/artatlasapp.png){:class="lazyload"}
