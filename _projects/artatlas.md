@@ -2,7 +2,7 @@
 layout: project
 number: 6
 position: center
-published: false
+published: true
 project-title: Art Atlas
 description: Geotagged online public art archive
 client: Brisbane City Council
@@ -18,5 +18,4 @@ Users can contribute to the crowd-sourced catalogue by uploading images of publi
 
 The system allows for artists to build a catalogue of their work which provides them a platform to share their portfolio in a way previously unavailable, ultimately creating a worldwide public art library which allows artists to gain recognition throughout the globe. For a medium that is often ephemeral the Art Atlas provides an archival system that can recognise artworks long after they have been painted over or removed.
 
-Art Atlas is live on the Apple App Store and Google Play, growing through increasing numbers of artists and art devotees uploading fresh content and our developers are continuing to improve the system. 
-
+Art Atlas is live on the Apple App Store and Google Play, growing through increasing numbers of artists and art devotees uploading fresh content and our developers are continuing to improve the system.
