@@ -11,7 +11,7 @@ services: >-
   development
 year: '2017'
 website: www.artatlas.io
-cover-image: /images/Art Atlas Transparent Logo 4.png
+cover-image: /images/artatlasapp.png
 ---
 Art Atlas is a crowd-sourced archival and documentation system for public art around the world built by Vast Yonder. The project was made possible through the funding received as part of the 2016 Brisbane City Council Innovation Award, Art Atlas has grown from a simple concept into a worldwide platform for street artists and admirers to display their own works and explore appreciated pieces in a geographic context. 
 
