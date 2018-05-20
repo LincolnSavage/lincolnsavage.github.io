@@ -23,7 +23,6 @@ The Brisbane Street Art Festival (BSAF) is a city-wide public art festival in it
 
 ![bsaf-sofles.jpg]({{site.baseurl}}/images/bsaf-sofles.jpg){:class="lazyload"}
 
-
 As an avenue for artistic expression, we aim to create a cross-disciplinary platform that encourages any and all art forms to participate. From live mural art and creative masterclasses to music, theatre and light shows, we ensure that BSAF offers a range of performances and workshops designed to engage the public with the outcomes the world standard local, interstate and international artists have to offer. BSAF is growing rapidly into a leading annual art festival, with our team forging connections with a number of local and state government organisations, commercial enterprises, and academic institutions enabling the program, scope and scale to grow dramatically. 
 
 ![bsaf-clairefoxton.png]({{site.baseurl}}/images/bsaf-clairefoxton.png){:class="lazyload"}
