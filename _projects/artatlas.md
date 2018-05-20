@@ -1,8 +1,16 @@
 ---
 layout: project
-number: 1
+number: 6
 position: center
 published: false
+project-title: Art Atlas
+description: Geotagged online public art archive
+client: Brisbane City Council
+services: >-
+  Concept, Project management, Web development, Mobile development, Back-end
+  development
+year: '2017'
+website: www.artatlas.io
 ---
 Art Atlas is a crowd-sourced archival and documentation system for public art around the world built by Vast Yonder. The project was made possible through the funding received as part of the 2016 Brisbane City Council Innovation Award, Art Atlas has grown from a simple concept into a worldwide platform for street artists and admirers to display their own works and explore appreciated pieces in a geographic context. 
 
