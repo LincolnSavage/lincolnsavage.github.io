@@ -2,7 +2,7 @@
 layout: project
 number: 8
 position: center
-published: false
+published: true
 project-title: Yonder
 description: Music and Arts Festival
 client: In-house
