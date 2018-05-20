@@ -2,7 +2,7 @@
 layout: project
 number: 7
 position: center
-published: false
+published: true
 cover-image: images/avrff-image1.jpg
 project-title: Australian Virtual Reality Film Festival
 description: 'Film festival dedicated to Virtual Reality '
