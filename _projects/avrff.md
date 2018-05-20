@@ -1,8 +1,16 @@
 ---
 layout: project
-number: 1
+number: 7
 position: center
 published: false
+cover-image: images/avrff-image1.jpg
+project-title: Australian Virtual Reality Film Festival
+description: 'Film festival dedicated to Virtual Reality '
+client: In-house
+partners: 'Brisbane Powerhouse, Screen Queensland'
+services: 'Project management, Event management, Curation'
+year: '2017, 2018 (Annual Event)'
+website: www.avrff.com
 ---
 
 ![avrff-image1.jpg]({{site.baseurl}}/images/avrff-image1.jpg){:class="lazyload"}
