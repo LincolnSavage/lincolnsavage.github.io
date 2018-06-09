@@ -39,3 +39,6 @@ We curate a number of micro-venues dotted across the site tailored to provide un
 
 Jungle Love is a 100 percent inclusive environment. We are taking on a number of initiatives to reduce the carbon footprint of Jungle Love which will include a professionally managed recycling program hand sorting all our recycling and delivering it to the appropriate recycling depots.  We’re also taking steps to reduce greenhouse emissions by encouraging all jungle lovers to carpool and minimise their own eco-footprint! Jungle Love has also teamed up with QUT Creative Industries and Five Mile Radius to build an architectural sustainability program that will see the Jungle Boogie Stage and the festival bars designed and decked out with materials sourced only within a five mile radius of the festival site.
 
+<div class="video-responsive">
+	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/kPzuMtQsZec" frameborder="0" allowfullscreen=""></iframe>
+</div>
