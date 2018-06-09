@@ -958,7 +958,8 @@ nav {
     font-weight: 100;
     transition: all 0.2s ease; }
   .project__title h3 {
-    font-size: 24px; }
+    font-size: 24px;
+    max-width: 240px; }
   .project__title p {
     font-size: 14px;
     margin: 0;
@@ -1112,6 +1113,9 @@ nav {
   outline: none !important;
   border-color: #BBB;
   color: #222; }
+
+.contact .confirm {
+  float: left; }
 
 .project-navigation {
   padding: 64px 16px 0 16px; }

@@ -298,6 +298,7 @@ nav {
   }
   h3 {
     font-size: 24px;
+    max-width: 240px;
   }
   p {
     font-size: 14px;
@@ -471,6 +472,9 @@ nav .max-width {
     outline: none !important;
     border-color: #BBB;
     color: #222;
+  }
+  .confirm {
+    float: left;
   }
 }
 
