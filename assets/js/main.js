@@ -22,7 +22,13 @@ $("#my_form").submit(function(event){
     	url: 'https://www.enformed.io/brq2ec8/',
     	dataType: 'json',
     	data: form_data,
-    	success: $("#my_form")[0].reset(),
+    	success: success(),
     	error: (err) => console.log(err)
     });
 });
+
+function success(){
+	$("#my_form")[0].reset();
+	$('.confirm').addClass('confirm--visible');
+	console.log("Form sent!");
+};

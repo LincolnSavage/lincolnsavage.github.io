@@ -1111,11 +1111,18 @@ nav {
 
 .contact .button:focus {
   outline: none !important;
-  border-color: #BBB;
-  color: #222; }
+  border-color: #DDD;
+  color: #DDD; }
 
 .contact .confirm {
-  float: left; }
+  float: left;
+  padding: 6px 0 7px 0;
+  margin: 16px;
+  opacity: 0; }
+
+.contact .confirm--visible {
+  opacity: 1;
+  transition: opacity 0.2s ease; }
 
 .project-navigation {
   padding: 64px 16px 0 16px; }
