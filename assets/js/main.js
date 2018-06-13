@@ -30,5 +30,4 @@ $("#my_form").submit(function(event){
 function success(){
 	$("#my_form")[0].reset();
 	$('.confirm').addClass('confirm--visible');
-	console.log("Form sent!");
 };
