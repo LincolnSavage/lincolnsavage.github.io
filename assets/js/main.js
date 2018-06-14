@@ -19,7 +19,7 @@ $("#my_form").submit(function(event){
     var form_data = $(this).serialize(); //Encode form elements for submission
     $.ajax({
     	method: 'POST',
-    	url: 'https://www.enformed.io/brq2ec8/',
+    	url: 'https://www.enformed.io/19e555oq/',
     	dataType: 'json',
     	data: form_data,
     	success: success(),
