@@ -9,11 +9,13 @@ client: In-house
 services: 'Event Management, Curation'
 year: Annual Event
 website: www.yonderfestival.com
-cover-image: images/yonder-web.jpg
+cover-image: images/yonder-web-crop.jpg
 ---
 <div class="video-responsive">
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/inNf8HQtDDQ" frameborder="0" allowfullscreen=""></iframe>
 </div>
+
+![yonder-web-crop.jpg]({{site.baseurl}}/images/yonder-web-crop.jpg)
 
 
 ![yonder-web.jpg]({{site.baseurl}}/images/yonder-web.jpg)
