@@ -33,7 +33,7 @@ Acting more as a surreal wonderland than a music festival, every part of Jungle 
 We curate a number of micro-venues dotted across the site tailored to provide unexpected otherworldly experiences for an inquisitive crowd. Members of the Jungle Love community are welcomed to join in on the creation at the Jam Stage, a continual jam session of groovy sounds curated by musicians and the audience. Hidden experiences and pleasant surprises are a Jungle Love tradition; stumble across visual art installations and impromptu performances. Those with a keen eye or a little bit of luck might find themselves in secret locations, or immersed in weird and wonderful circumstances.
 
 <div class="video-responsive">
-	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/rMeLEh5FdtI" frameborder="0" allowfullscreen=""></iframe>
+	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/e_lc5hr2duw" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
 
