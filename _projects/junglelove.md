@@ -43,7 +43,7 @@ Jungle Love is a 100 percent inclusive environment. We are taking on a number of
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/kPzuMtQsZec" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
-<a href="https://www.sunshinecoastdaily.com.au/news/coast-festivals-collective-step-towards-reconcilia/3424676/">Sunshine Coast Daily: Coast festival's collective step towards reconciliation</a>
+<a href="https://www.sunshinecoastdaily.com.au/news/coast-festivals-collective-step-towards-reconcilia/3424676/"><b>Sunshine Coast Daily:</b> Coast festival's collective step towards reconciliation</a>
 
 <a href="http://themusic.com.au/news/all/2017/05/06/jungle-love-and-airlie-beach-music-fests-score-share-in-245000-dollar-funding-grant/">TheMusic: Jungle Love & Airlie Beach Music Fests Score Share In $245,000 Funding Grant</a>
 
