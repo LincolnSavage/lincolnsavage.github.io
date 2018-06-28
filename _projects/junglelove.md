@@ -42,3 +42,7 @@ Jungle Love is a 100 percent inclusive environment. We are taking on a number of
 <div class="video-responsive">
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/kPzuMtQsZec" frameborder="0" allowfullscreen=""></iframe>
 </div>
+
+Media:
+
+<a href="https://www.sunshinecoastdaily.com.au/news/coast-festivals-collective-step-towards-reconcilia/3424676/">Sunshine Coast Daily: Coast festival's collective step towards reconciliation</a>
