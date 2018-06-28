@@ -20,8 +20,6 @@ position: center
 
 The Brisbane Street Art Festival (BSAF) is a city-wide public art festival in its third iteration for 2018. Held across more than twenty-five locations throughout Brisbane and involving over 50 local, interstate and international artists through the course of two weeks and hosting a varied program of art forms and installations. BSAF serves as one of Brisbane’s most public facing arts events geared towards engagement, showcase, collaboration and public space activation. The Brisbane audience are immersed in the local creative industry as artists take to the street with large scale works, building a sense of community and inclusivity.
 
-<a href="http://www.abc.net.au/news/2018-04-21/brisbane-street-art-worth-checking-out-this-weekend/9680346">ABC Online: Brisbane's best street art worth checking out this weekend</a>
-
 <div class="video-responsive">
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/-G00XOwrU9o" frameborder="0" allowfullscreen=""></iframe>
 </div>
@@ -39,3 +37,6 @@ As an avenue for artistic expression, we aim to create a cross-disciplinary plat
 <div class="video-responsive">
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/TSmbfi1p4sI" frameborder="0" allowfullscreen=""></iframe>
 </div>
+
+<a href="http://www.abc.net.au/news/2018-04-21/brisbane-street-art-worth-checking-out-this-weekend/9680346">ABC Online: Brisbane's best street art worth checking out this weekend</a>
+<a href="http://www.abc.net.au/news/2018-04-11/brisbane-street-art-festival-women-making-their-mark/9635812">Brisbane Street Art Festival and the women leaving their mark on the city</a>
