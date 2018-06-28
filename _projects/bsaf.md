@@ -40,5 +40,4 @@ As an avenue for artistic expression, we aim to create a cross-disciplinary plat
 </div>
 
 Media:
-
 <a href="http://www.abc.net.au/news/2018-04-21/brisbane-street-art-worth-checking-out-this-weekend/9680346">ABC Online: Brisbane's best street art worth checking out this weekend</a>
