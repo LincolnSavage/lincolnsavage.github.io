@@ -27,17 +27,20 @@ Now heading into its fifth year, the Jungle Love Music and Arts Festival has rap
 Acting more as a surreal wonderland than a music festival, every part of Jungle Love has been meticulously pored over to provide a liberating and immersive experience for all attendees. A luscious campsite nestled under a breezy canopy of trees, surrounded by a freshwater stream (that you can swim in) is the backdrop, and music is the soundtrack. Pulling out an array of impressive one-of-a-kinds; creativity is at the core of every planning stage and Jungle Love 2018 steps it up a notch.
 
 <div class="video-responsive">
-	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/kvSIZhLPS9I" frameborder="0" allowfullscreen=""></iframe>
+	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/e_lc5hr2duw" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
 We curate a number of micro-venues dotted across the site tailored to provide unexpected otherworldly experiences for an inquisitive crowd. Members of the Jungle Love community are welcomed to join in on the creation at the Jam Stage, a continual jam session of groovy sounds curated by musicians and the audience. Hidden experiences and pleasant surprises are a Jungle Love tradition; stumble across visual art installations and impromptu performances. Those with a keen eye or a little bit of luck might find themselves in secret locations, or immersed in weird and wonderful circumstances.
 
 <div class="video-responsive">
-	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/e_lc5hr2duw" frameborder="0" allowfullscreen=""></iframe>
+	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/kvSIZhLPS9I" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
-
 Jungle Love is a 100 percent inclusive environment. We are taking on a number of initiatives to reduce the carbon footprint of Jungle Love which will include a professionally managed recycling program hand sorting all our recycling and delivering it to the appropriate recycling depots.  We’re also taking steps to reduce greenhouse emissions by encouraging all jungle lovers to carpool and minimise their own eco-footprint! Jungle Love has also teamed up with QUT Creative Industries and Five Mile Radius to build an architectural sustainability program that will see the Jungle Boogie Stage and the festival bars designed and decked out with materials sourced only within a five mile radius of the festival site.
+
+<div class="video-responsive">
+	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/WtLJBI4-z7A" frameborder="0" allowfullscreen=""></iframe>
+</div>
 
 <div class="video-responsive">
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/kPzuMtQsZec" frameborder="0" allowfullscreen=""></iframe>
