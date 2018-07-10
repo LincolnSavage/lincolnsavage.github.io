@@ -29,18 +29,8 @@ published: true
       </div>
       <div class="welcome__background-image"></div>
       <video class="video-background" poster="img/cover.jpg" playsinline autoplay muted loop>
-  <!-- 
-- Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
-WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-        <!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm">-->
         <source src="assets/video.mp4" type="video/mp4">
       </video>
-      <!--<div class="video-background">
-        <div class="video-foreground">
-          <div id="player"></div>
-        </div>
-      <div class="video-overlay" id="video-overlay"></div>
-          </div>-->
       <a href="#projects">
           <svg class="mouse" width="22" height="34" viewBox="0 0 22 34">
               <g fill="none" fill-rule="evenodd">
@@ -66,36 +56,3 @@ WCAG general accessibility recommendation is that media such as background video
   </section>
   {% include footer.html %}
 </body>
-
-<!--
-<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
-<script type="text/javascript">
-    var player;
-    function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-            videoId: 'OPf0YbXqDm0',
-            playerVars: {
-                mute: 1,
-                autoplay: 1,
-                loop: 1,
-                controls: 0,
-                showinfo: 0,
-                autohide: 0,
-                enablejsapi: 1,
-                modestbranding: 1,
-                playlist: 'OPf0YbXqDm0',
-                vq: 'large'
-            },
-            allowfullscreen: 1,
-            events: {
-                'onStateChange': onPlayerStateChange
-            }
-        });
-    }
-    function onPlayerStateChange(el) {
-        if(el.data === 1) {
-            jQuery('#video-overlay').hide();
-        }
-    }
-</script>
--->
