@@ -37,7 +37,7 @@ published: true
     <p>Past project partners and clients</p>
 		<div class="clients cf">
       {% for image in site.static_files %}
-        {% if image.path contains 'images/clients' %}
+        {% if image.name contains 'client-' %}
           <img class="clients__logo lazyload" data-src="{{ image.path }}" alt="image" />
         {% endif %}
       {% endfor %}
