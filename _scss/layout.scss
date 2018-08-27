@@ -148,6 +148,9 @@
 	    	padding: 64px $padding-tablet $padding-tablet $padding-tablet;
 	  	}
 	}
+	// p + p {
+	// 	padding-top: 0; //Issue: Images are wrapped in p tags.
+	// }
 	.image-container {
 		max-width: 100%;
 		width: 100%;

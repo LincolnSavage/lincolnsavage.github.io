@@ -995,7 +995,8 @@ nav {
   margin-top: 60px; }
   .info__items h2 {
     padding-bottom: 8px;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    max-width: 800px; }
 
 .max-width {
   margin: 0 auto 0 auto; }
@@ -1004,10 +1005,11 @@ nav {
       max-width: 1000px; } }
 
 @media (min-width: 1200px) {
-  nav .max-width {
+  nav .max-width, footer .max-width {
     padding: 0 32px; } }
 
 .video-responsive {
+  max-width: 1000px;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
