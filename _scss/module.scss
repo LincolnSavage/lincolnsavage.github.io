@@ -41,11 +41,36 @@ nav {
   transition: all 0.4s ease;
   // background-color: #757575;
   // box-shadow: 0 4px 12px rgba(0,0,0,0.064);
+  .logo--simple {
+    display: inline-block;
+    transform-origin: left center;
+    transform: scale(1.2);
+    margin-top: 7px;
+    margin-bottom: 4px;
+  }
+  .logo--logotype {
+    display: none;
+  }
+  @include for-phone-landscape-up-alt {
+    padding: 60px $padding-tablet;
+    .logo--simple {
+      display: none;
+    }
+    .logo--logotype {
+      display: inline-block;
+      margin-top: 10px;
+      margin-bottom: 8px;
+    }
+  }
+
+
+
   z-index: 10;
   @include for-phone-landscape-up {
     padding: 14px $padding-tablet 14px $padding-tablet;
   }
 }
+
 
 .nav--home {
   display: none;
@@ -77,8 +102,6 @@ nav {
 
 .nav__logo {
   float: left;
-  margin-top: 10px;
-  margin-bottom: 8px;
   path {
     fill: $primary-colour;
   }
