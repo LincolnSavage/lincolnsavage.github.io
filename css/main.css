@@ -720,6 +720,25 @@ nav {
   text-align: right;
   transition: all 0.4s ease;
   z-index: 10; }
+  nav .logo--simple {
+    display: inline-block;
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    margin-top: 7px;
+    margin-bottom: 4px; }
+  nav .logo--logotype {
+    display: none; }
+  @media (min-width: 480px) {
+    nav {
+      padding: 60px 32px; }
+      nav .logo--simple {
+        display: none; }
+      nav .logo--logotype {
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 8px; } }
   @media (min-width: 400px) {
     nav {
       padding: 14px 32px 14px 32px; } }
@@ -746,9 +765,7 @@ nav {
   fill: #70ADFF; }
 
 .nav__logo {
-  float: left;
-  margin-top: 10px;
-  margin-bottom: 8px; }
+  float: left; }
   .nav__logo path {
     fill: #222; }
 
