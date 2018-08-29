@@ -561,3 +561,17 @@ nav .max-width, footer .max-width {
   transition: opacity 1s;
 }
 
+.gallery {
+  padding: 22px $padding-mobile 0 $padding-mobile; // 32px less image padding 
+  width: 100%;
+  @include for-phone-landscape-up {
+    padding: 22px $padding-tablet 0 $padding-tablet; // 32px less image padding 
+  }
+}
+
+.galleryItem img {
+  height: 120px;
+  float: left;
+  margin: 10px 10px 0 0;
+}
+
