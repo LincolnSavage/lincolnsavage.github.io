@@ -516,6 +516,7 @@ nav .max-width, footer .max-width {
 
 .project-navigation {
   padding: 64px $padding-mobile 0 $padding-mobile;
+  line-height: 20px;
   @include for-phone-landscape-up {
     padding: 64px 32px 0 32px;
   }

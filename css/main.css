@@ -1518,7 +1518,8 @@ nav {
   transition: all 0.4s ease; }
 
 .project-navigation {
-  padding: 64px 16px 0 16px; }
+  padding: 64px 16px 0 16px;
+  line-height: 20px; }
   @media (min-width: 400px) {
     .project-navigation {
       padding: 64px 32px 0 32px; } }
