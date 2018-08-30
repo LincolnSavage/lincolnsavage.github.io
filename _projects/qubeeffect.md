@@ -34,6 +34,8 @@ The QUBE Effect is a music industry development project funded by the Brisbane C
 	</a>
 </div>
 
+
+
 Artist applicants are assessed by a curatorial panel resulting in a selection of 24 standout acts that are chosen to take part in the project. This includes a live performance opportunity in the Brisbane CBD, a music video produced with cutting edge film technology and the opportunity to perform at the QUBE Effect awards night at the Brisbane Powerhouse at which a number of the acts receive prizes. In the production of this event, we produce the film, audio, lighting and performance with a trusted team of experts who tailor their work to the needs of the acts to ensure that we are giving the artists the best experience possible and high level industry creative outcomes to benefit their creative careers.
 
 ![Group shots of various bands.]({{site.baseurl}}/images/qubeeffect-bands.jpg){:class="lazyload full-width"}

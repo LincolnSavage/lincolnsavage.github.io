@@ -38,9 +38,8 @@ As an avenue for artistic expression, we aim to create a cross-disciplinary plat
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/TSmbfi1p4sI" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
-<a href="http://www.abc.net.au/news/2018-04-21/brisbane-street-art-worth-checking-out-this-weekend/9680346">ABC Online: Brisbane's best street art worth checking out this weekend</a>
-
-<a href="http://www.abc.net.au/news/2018-04-11/brisbane-street-art-festival-women-making-their-mark/9635812">ABC Online: Brisbane Street Art Festival and the women leaving their mark on the city</a>
-
-<a href="http://www.abc.net.au/radionational/programs/the-hub-on-art/the-hub-on-art-wednesday-5th-of-april/9612764">ABC Radio National (The Hub): Brisbane Street Art Festival 2018</a>
-
+<div class = "link-list cf">
+	<a href="http://www.abc.net.au/news/2018-04-21/brisbane-street-art-worth-checking-out-this-weekend/9680346">ABC Online: Brisbane's best street art worth checking out this weekend</a>
+	<a href="http://www.abc.net.au/news/2018-04-11/brisbane-street-art-festival-women-making-their-mark/9635812">ABC Online: Brisbane Street Art Festival and the women leaving their mark on the city</a>
+	<a href="http://www.abc.net.au/radionational/programs/the-hub-on-art/the-hub-on-art-wednesday-5th-of-april/9612764">ABC Radio National (The Hub): Brisbane Street Art Festival 2018</a>
+</div>

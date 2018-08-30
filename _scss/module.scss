@@ -575,3 +575,21 @@ nav .max-width, footer .max-width {
   margin: 10px 10px 0 0;
 }
 
+.link-list {
+   padding: 16px $padding-mobile 0 $padding-mobile; // 32px less link padding 
+  width: 100%;
+  @include for-phone-landscape-up {
+    padding: 16px $padding-tablet 0 $padding-tablet; // 32px less link padding 
+  }
+}
+
+.link-list a {
+  float: left;
+  clear: right;
+  margin: 16px 0 0 0;
+  text-decoration: underline;
+  text-decoration-color: #777;
+  &:hover {
+    text-decoration-color: inherit;
+  }
+}

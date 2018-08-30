@@ -970,6 +970,9 @@ a:hover {
     .project-page p {
       padding: 64px 32px 32px 32px; } }
 
+.project-page p:not(.image-container) + p:not(.image-container) {
+  padding-top: 0; }
+
 .project-page .image-container {
   max-width: 100%;
   width: 100%;
@@ -981,6 +984,9 @@ a:hover {
     @media (min-width: 600px) {
       .project-page .image-container img {
         padding: 32px 32px 0 32px; } }
+  .project-page .image-container .portrait {
+    max-width: 100%;
+    width: 600px; }
   .project-page .image-container .full-width {
     padding: 32px 0 0 0;
     max-width: 100%; }
@@ -1559,3 +1565,19 @@ nav {
   height: 120px;
   float: left;
   margin: 10px 10px 0 0; }
+
+.link-list {
+  padding: 16px 16px 0 16px;
+  width: 100%; }
+  @media (min-width: 400px) {
+    .link-list {
+      padding: 16px 32px 0 32px; } }
+
+.link-list a {
+  float: left;
+  clear: right;
+  margin: 16px 0 0 0;
+  text-decoration: underline;
+  text-decoration-color: #777; }
+  .link-list a:hover {
+    text-decoration-color: inherit; }
