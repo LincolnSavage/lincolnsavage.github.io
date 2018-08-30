@@ -15,4 +15,4 @@ cover-image: images/yonder-web-crop.jpg
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/inNf8HQtDDQ" frameborder="0" allowfullscreen=""></iframe>
 </div>
 
-![yonder-web.jpg]({{site.baseurl}}/images/yonder-web.jpg){:class="lazyload"}
+![yonder-web.jpg]({{site.baseurl}}/images/yonder-web.jpg){:class="lazyload portrait"}
