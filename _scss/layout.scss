@@ -148,9 +148,11 @@
 	    	padding: 64px $padding-tablet $padding-tablet $padding-tablet;
 	  	}
 	}
-	// p + p {
-	// 	padding-top: 0; //Issue: Images are wrapped in p tags.
-	// }
+
+	p:not(.image-container) + p:not(.image-container) {
+		padding-top: 0; // Hack - Need Review
+	}
+
 	.image-container {
 		max-width: 100%;
 		width: 100%;
@@ -162,6 +164,10 @@
 			@include for-tablet-portrait-up {
     			padding: $padding-tablet $padding-tablet 0 $padding-tablet;
   			}
+		}
+		.portrait {
+			max-width: 100%;
+			width: 600px;
 		}
 		.full-width {
 			padding: $padding-tablet 0 0 0;
