@@ -8,7 +8,7 @@ description: Music and Arts Festival
 client: In-house
 services: 'Event Management, Curation'
 year: Annual Event
-website: www.yonderfestival.com
+website: https://www.yonderfestival.com
 cover-image: images/yonder-web-crop.jpg
 ---
 <div class="video-responsive">

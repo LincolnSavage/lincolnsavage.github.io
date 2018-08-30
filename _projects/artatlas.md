@@ -10,7 +10,7 @@ services: >-
   Concept, Project management, Web development, Mobile development, Back-end
   development
 year: '2017'
-website: www.artatlas.io
+website: https://artatlas.io
 cover-image: images/artatlas-cover.png
 ---
 <div class="video-responsive">
