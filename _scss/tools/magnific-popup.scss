@@ -202,7 +202,7 @@ button::-moz-focus-inner {
 .mfp-arrow-left {
   left: 0; }
   .mfp-arrow-left:after {
-    border-right: 12px solid #FFF;
+    border-right: 12px solid #fff;
     margin-left: 31px; }
   .mfp-arrow-left:before {
     margin-left: 25px;
@@ -246,7 +246,6 @@ img.mfp-img {
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 100% !important; /* ADDED */
   display: block;
   line-height: 0;
   box-sizing: border-box;

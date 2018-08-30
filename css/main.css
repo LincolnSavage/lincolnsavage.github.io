@@ -609,7 +609,7 @@ button::-moz-focus-inner {
   left: 0; }
 
 .mfp-arrow-left:after {
-  border-right: 12px solid #FFF;
+  border-right: 12px solid #fff;
   margin-left: 31px; }
 
 .mfp-arrow-left:before {
@@ -659,8 +659,6 @@ img.mfp-img {
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 100% !important;
-  /* ADDED */
   display: block;
   line-height: 0;
   box-sizing: border-box;
@@ -784,7 +782,7 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   font-size: 1em;
-  color: #2D2D2D;
+  color: #222;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
 
@@ -802,7 +800,7 @@ h2 {
   font-weight: 400; }
 
 a, a:visited {
-  color: #2D2D2D;
+  color: #222;
   font-weight: 300;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -813,7 +811,7 @@ a:hover {
 
 .button {
   display: inline-block;
-  border-color: #2D2D2D;
+  border-color: #222;
   border-width: 1px;
   border-style: solid;
   border-radius: 20px;
@@ -950,7 +948,7 @@ a:hover {
       max-width: 500px; } }
 
 .projects {
-  background-color: #2D2D2D; }
+  background-color: #222; }
 
 .project {
   height: 300px;
@@ -988,8 +986,8 @@ a:hover {
     max-width: 100%; }
 
 .project-page p, .project-page h1, .project-page h2, .project-page a {
-  color: #2D2D2D;
-  border-color: #2D2D2D; }
+  color: #222;
+  border-color: #222; }
 
 .project-page a:hover {
   color: #70ADFF; }
@@ -998,7 +996,7 @@ a:hover {
   line-height: 1.8em; }
 
 .project-page a.current {
-  color: #2D2D2D; }
+  color: #222; }
 
 .project-page h1::after, .project-page p::after {
   content: "";
@@ -1033,7 +1031,7 @@ footer {
       footer .logo--logotype {
         display: inline-block; } }
   footer .logo path {
-    fill: #2D2D2D; }
+    fill: #222; }
 
 .about-page footer, .project-page footer {
   margin-top: 64px; }
@@ -1132,7 +1130,7 @@ nav {
 .nav__logo {
   float: left; }
   .nav__logo path {
-    fill: #2D2D2D; }
+    fill: #222; }
 
 .nav__logo:hover path {
   fill: #70ADFF; }
@@ -1534,7 +1532,7 @@ nav {
   float: right;
   margin-left: 16px; }
   .social .fill {
-    fill: #2D2D2D;
+    fill: #222;
     transition: all 0.2s ease; }
 
 .social:hover .fill {
