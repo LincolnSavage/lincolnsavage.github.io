@@ -41,36 +41,12 @@
   </div>
 </section>
 {{ content }}
-<div class="project-navigation cf"><a class="project-navigation__previous" href="{{page.previous.url}}">Previous Project<br>{{ page.previous.project-title }}</a><a class="project-navigation__next" href="{{page.next.url}}">Next Project<br>{{ page.next.project-title }}</a></div>
+
+<div class="project-navigation cf"><a class="project-navigation__previous" href="{{page.previous.url}}"><span class = "project-navigation--description">Previous Project</span><br>{{ page.previous.project-title }}</a><a class="project-navigation__next" href="{{page.next.url}}"><span class = "project-navigation--description">Next Project</span><br>{{ page.next.project-title }}</a></div>
 </div>
+
 {% include footer.html %}
 <script src="/assets/js/magnific-popup.js"></script>
-<!--<script>
-  $(document).ready(function() {
-    var groups = {};
-    $('.galleryItem').each(function() {
-      var id = parseInt($(this).attr('data-group'), 10);
-
-      if(!groups[id]) {
-        groups[id] = [];
-      } 
-
-      groups[id].push( this );
-    });
-
-
-    $.each(groups, function() {
-
-      $(this).magnificPopup({
-        type: 'image',
-        closeOnContentClick: true,
-        closeBtnInside: false,
-        gallery: { enabled:true }
-      })
-
-    });
-  });
-</script>-->
 <script>
   $(document).ready(function(){
     $('.galleryItem').magnificPopup({
@@ -79,21 +55,15 @@
       gallery:{
         enabled:true
       },
-
       zoom: {
         enabled: true, 
-
     duration: 300, // duration of the effect, in milliseconds
     easing: 'ease-in-out', // CSS transition easing function
-
     opener: function(openerElement) {
-
       return openerElement.is('img') ? openerElement : openerElement.find('img');
     }
   }
-
 });
-
   });
 </script>
 </body>
