@@ -30,6 +30,6 @@
   "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync",
   "dependencies": {
     "smoothscroll-polyfill": "^0.4.3",
-    "uuid": "^3.0.1"
+    "uuid": "^3.3.2"
   }
 }
