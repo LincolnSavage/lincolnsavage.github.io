@@ -22,6 +22,16 @@ Scribble Slam is a live art battle that runs at Ric’s Backyard in Fortitude Va
 
 The event showcases two artists battling against each other, working with a 90 minute time limit, and each creating their own artwork on a 2.4m x 2.4m wall. The two artists involved are able to use whichever medium they like to create an artwork. Both artists will be completely unaware of what they will be painting until the countdown timer is started. The element of the ‘unknown’ lends Scribble Slam a sense of intensity and intrigue that draws a diverse crowd of art apprecionados. The event has been running for more than three years, originally hosted by Kerbside until that venue closed down.
 
+<div class="gallery cf">
+	<a href="/images/SCRIBBLE_1_1200x800.jpg" data-group="1" class="galleryItem">
+		<img src="/images/SCRIBBLE_2_360x240.jpg" />
+	</a>
+	<a href="/images/SCRIBBLE_2_1200x800.jpg" data-group="1" class="galleryItem">
+		<img src="/images/SCRIBBLE_2_360x240.jpg" />
+	</a>
+</div>
+
+
 <div class="video-responsive">
 	<iframe class="lazyload" width="840" height="473" src="https://www.youtube.com/embed/jLKxgUoCJrU" frameborder="0" allowfullscreen=""></iframe>
 </div>
